@@ -1,6 +1,13 @@
 /*
   TIME COMPLEXITY : O(logN)
   SPACE COMPLEXITY : O(1)
+   mid can be on three position
+        mid
+         |
+        / \
+      mid  mid
+      /     \
+    /        \
 */
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
